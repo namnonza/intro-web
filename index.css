@@ -1,0 +1,26 @@
+.about {
+  height: 200vh;
+  text-align: center;
+}
+
+.about #about-title {
+  text-decoration: underline;
+  font-size: 2rem
+}
+
+.about #about-text {
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 1rem;
+}
+
+.about #about-picture #about-picture-set {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.about #about-picture #about-picture-set img {
+  margin: 2rem;
+}
